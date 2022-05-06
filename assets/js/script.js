@@ -31,7 +31,7 @@ const validaNumero = (numero) => {
             multiplicaciones.appendChild(multiItem)
             
             let factorialItem = document.createElement('li')
-            let factorialVal = `Factorial de ${i} es: ${ factorial = factorial * i }`
+            let factorialVal = `Factor de ${i} es: ${ factorial = factorial * i }`
             factorialItem.textContent = factorialVal
             factoriales.appendChild(factorialItem)
 
