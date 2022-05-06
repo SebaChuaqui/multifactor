@@ -17,8 +17,10 @@ li{
     
 }
 
-.contenido-salida{
-    box-sizing: border-box;
+.salida-item{
+    display: inline-block;
+
 }
+
 
 
