@@ -1,0 +1,24 @@
+li{
+    list-style: none;
+}
+
+.contenido-titulo{
+    text-align: center;
+}
+
+.contenido-input{
+    text-align: center;
+
+}
+
+.input-item{
+    display: inline-block;
+    align-content: center;
+    
+}
+
+.contenido-salida{
+    box-sizing: border-box;
+}
+
+
