@@ -1,32 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Tablas y Factoriales</title>
+    <!--  Google Fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Multiplicación y Factorización</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Raleway:wght@100;300;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <h1>Tablas: Múltiplos y Factoriales</h1>
 
-    <form action="">
-        <label for="num">Ingresa un número:</label>
-        <input type="text" placeholder="Del 1 al 20">
-        <input type="submit" placeholder="Calcular">
-    </form>
+    <main class="main-wrapper">
+        <div class="content-wrapper"> 
+            <div class="content">
+                <h1 class="content__title">Ingresar un valor entre 1 y 20</h1>
 
-    <main>
-        <section id="multiplicación"></section>
-        <section id="factorización"></section>
+                <div class="content__input">
+                    <div class="input-item">
+                        <input type="number" min="1" id="usuario">
+                    </div>
+                    <div class="input-item">
+                        <button id="calcular">Calcular</button>
+                    </div>
+                </div>
+
+                <div id="salida" class="content__salida">
+                    <div class="salida-item">
+                        <div class="salida-item__text">
+                            Multiplicación:
+                        </div>
+                        <div class="salida-item__res">
+                            <ul id="multiplicaciones"></ul>
+                        </div>
+                    </div>
+                    <div class="salida-item">
+                        <div class="salida-item__text">
+                            Factoriales:
+                        </div>
+                        <div class="salida-item__res">
+                            <ul id="factoriales"></ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="mensaje" class="mensaje"></div>
+            </div>
+
+        </div>
+
     </main>
 
-    <script src="./assets/js/script.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
 </body>
 
 </html>
